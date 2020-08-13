@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F12EBF0224E5D6EB000D6577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F176BA0D24E51C6F0044AAE5 /* Main.storyboard */; };
+		F12EBF0424E5D8BB000D6577 /* RecyclingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12EBF0324E5D8BB000D6577 /* RecyclingViewController.swift */; };
+		F12EBF0624E5DADF000D6577 /* WhatToBuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12EBF0524E5DADF000D6577 /* WhatToBuyViewController.swift */; };
 		F176BA0824E51C6F0044AAE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176BA0724E51C6F0044AAE5 /* AppDelegate.swift */; };
 		F176BA0A24E51C6F0044AAE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176BA0924E51C6F0044AAE5 /* SceneDelegate.swift */; };
-		F176BA0F24E51C6F0044AAE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F176BA0D24E51C6F0044AAE5 /* Main.storyboard */; };
 		F176BA1224E51C6F0044AAE5 /* GoEco_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F176BA1024E51C6F0044AAE5 /* GoEco_.xcdatamodeld */; };
 		F176BA1424E51C740044AAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F176BA1324E51C740044AAE5 /* Assets.xcassets */; };
 		F176BA1724E51C740044AAE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F176BA1524E51C740044AAE5 /* LaunchScreen.storyboard */; };
@@ -17,6 +19,9 @@
 		F176BA2D24E51C740044AAE5 /* GoEco_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176BA2C24E51C740044AAE5 /* GoEco_UITests.swift */; };
 		F176BA3D24E523710044AAE5 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F176BA3C24E523700044AAE5 /* SWRevealViewController.m */; };
 		F176BA3F24E528490044AAE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176BA3E24E528490044AAE5 /* ViewController.swift */; };
+		F1C288FC24E589A600670C29 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C288FB24E589A600670C29 /* ScoreViewController.swift */; };
+		F1C288FE24E5B71E00670C29 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C288FD24E5B71E00670C29 /* MapViewController.swift */; };
+		F1C2890024E5BC2700670C29 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C288FF24E5BC2700670C29 /* ResourcesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F12EBF0324E5D8BB000D6577 /* RecyclingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclingViewController.swift; sourceTree = "<group>"; };
+		F12EBF0524E5DADF000D6577 /* WhatToBuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatToBuyViewController.swift; sourceTree = "<group>"; };
 		F176BA0424E51C6F0044AAE5 /* GoEco!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoEco!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F176BA0724E51C6F0044AAE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F176BA0924E51C6F0044AAE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +62,9 @@
 		F176BA3B24E523700044AAE5 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		F176BA3C24E523700044AAE5 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		F176BA3E24E528490044AAE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1C288FB24E589A600670C29 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		F1C288FD24E5B71E00670C29 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F1C288FF24E5BC2700670C29 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +120,11 @@
 				F176BA0D24E51C6F0044AAE5 /* Main.storyboard */,
 				F176BA1324E51C740044AAE5 /* Assets.xcassets */,
 				F176BA1524E51C740044AAE5 /* LaunchScreen.storyboard */,
+				F12EBF0524E5DADF000D6577 /* WhatToBuyViewController.swift */,
+				F12EBF0324E5D8BB000D6577 /* RecyclingViewController.swift */,
+				F1C288FF24E5BC2700670C29 /* ResourcesViewController.swift */,
+				F1C288FD24E5B71E00670C29 /* MapViewController.swift */,
+				F1C288FB24E589A600670C29 /* ScoreViewController.swift */,
 				F176BA3E24E528490044AAE5 /* ViewController.swift */,
 				F176BA3B24E523700044AAE5 /* SWRevealViewController.h */,
 				F176BA3C24E523700044AAE5 /* SWRevealViewController.m */,
@@ -243,9 +258,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F12EBF0224E5D6EB000D6577 /* Main.storyboard in Resources */,
 				F176BA1724E51C740044AAE5 /* LaunchScreen.storyboard in Resources */,
 				F176BA1424E51C740044AAE5 /* Assets.xcassets in Resources */,
-				F176BA0F24E51C6F0044AAE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +287,14 @@
 			files = (
 				F176BA3F24E528490044AAE5 /* ViewController.swift in Sources */,
 				F176BA0824E51C6F0044AAE5 /* AppDelegate.swift in Sources */,
+				F12EBF0624E5DADF000D6577 /* WhatToBuyViewController.swift in Sources */,
+				F1C2890024E5BC2700670C29 /* ResourcesViewController.swift in Sources */,
 				F176BA0A24E51C6F0044AAE5 /* SceneDelegate.swift in Sources */,
 				F176BA1224E51C6F0044AAE5 /* GoEco_.xcdatamodeld in Sources */,
 				F176BA3D24E523710044AAE5 /* SWRevealViewController.m in Sources */,
+				F1C288FC24E589A600670C29 /* ScoreViewController.swift in Sources */,
+				F12EBF0424E5D8BB000D6577 /* RecyclingViewController.swift in Sources */,
+				F1C288FE24E5B71E00670C29 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
