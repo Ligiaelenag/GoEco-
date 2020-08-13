@@ -1,5 +1,5 @@
 //
-//  WhatToBuyViewController.swift
+//  DonationsViewController.swift
 //  GoEco!
 //
 //  Created by ligia Elena Guevara on 8/13/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WhatToBuyViewController: UIViewController {
+class DonationsViewController: UIViewController {
 
     @IBOutlet weak var alertButton: UIBarButtonItem!
     @IBOutlet weak var menuButton: UIBarButtonItem!
@@ -20,6 +20,7 @@ class WhatToBuyViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+     
      func sideMenus() {
            
            if revealViewController() != nil {
@@ -41,7 +42,6 @@ class WhatToBuyViewController: UIViewController {
        }
      
      
-
     /*
     // MARK: - Navigation
 
