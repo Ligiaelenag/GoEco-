@@ -34,7 +34,37 @@
                     <view key="view" contentMode="scaleToFill" id="TSt-E8-C2l">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.43921568630000002" green="0.69411764710000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4245" translatesAutoresizingMaskIntoConstraints="NO" id="jBA-z1-83A">
+                                <rect key="frame" x="-63" y="129" width="292" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4247" translatesAutoresizingMaskIntoConstraints="NO" id="ZUt-LP-ERD">
+                                <rect key="frame" x="0.0" y="742" width="229" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4246" translatesAutoresizingMaskIntoConstraints="NO" id="Elz-K3-VJN">
+                                <rect key="frame" x="-89" y="129" width="345" height="387"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4251" translatesAutoresizingMaskIntoConstraints="NO" id="ejW-1Y-alE">
+                                <rect key="frame" x="223" y="244" width="273" height="283"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4243" translatesAutoresizingMaskIntoConstraints="NO" id="FN0-6w-WzN">
+                                <rect key="frame" x="237" y="632" width="246" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4241" translatesAutoresizingMaskIntoConstraints="NO" id="Tz4-lc-PwE">
+                                <rect key="frame" x="29" y="387" width="356" height="277"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4272 3" translatesAutoresizingMaskIntoConstraints="NO" id="Ej5-mI-MEQ">
+                                <rect key="frame" x="-178" y="232" width="770" height="219"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.31764120632289394" green="0.61603409291979694" blue="0.34719260488595233" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.43921568630000002" green="0.69411764710000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="KDP-vC-FHj"/>
                     </view>
@@ -44,8 +74,9 @@
                             <inset key="landscapeImageInsets" minX="1000" minY="1000" maxX="1000" maxY="10000"/>
                             <inset key="largeContentSizeImageInsets" minX="100" minY="100" maxX="1000" maxY="100"/>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="u1G-ad-lAu">
-                            <color key="tintColor" red="0.18039215689999999" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <barButtonItem key="rightBarButtonItem" title="🌍" width="40" id="u1G-ad-lAu">
+                            <inset key="largeContentSizeImageInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                            <color key="tintColor" red="0.18039215689999999" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -92,14 +123,20 @@
                     <view key="view" contentMode="scaleToFill" id="bYh-rB-uyL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4288" translatesAutoresizingMaskIntoConstraints="NO" id="SNS-qc-G9I">
+                                <rect key="frame" x="87" y="108" width="240" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43238502740000001" green="0.68223088980000002" blue="0.42095690969999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="1aA-3B-8D3"/>
                     </view>
                     <navigationItem key="navigationItem" id="sC8-lr-hDp">
                         <barButtonItem key="leftBarButtonItem" title="🌏" id="rTU-vC-2uR">
                             <inset key="imageInsets" minX="0.0" minY="0.0" maxX="570" maxY="0.0"/>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="gUV-hI-U7y"/>
+                        <barButtonItem key="rightBarButtonItem" title="🌍" id="gUV-hI-U7y"/>
                     </navigationItem>
                     <connections>
                         <outlet property="alertButton" destination="gUV-hI-U7y" id="M6n-3j-MMc"/>
@@ -117,12 +154,18 @@
                     <view key="view" contentMode="scaleToFill" id="pNa-j5-H3m">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4287" translatesAutoresizingMaskIntoConstraints="NO" id="aWy-qQ-1e4">
+                                <rect key="frame" x="87" y="108" width="240" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43238502740000001" green="0.68223088980000002" blue="0.42095690969999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="uw3-eI-LiZ"/>
                     </view>
                     <navigationItem key="navigationItem" id="sX0-k3-tnv">
                         <barButtonItem key="leftBarButtonItem" title="🌏" id="RyH-Fu-4Zk"/>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="yBX-VA-hWz"/>
+                        <barButtonItem key="rightBarButtonItem" title="🌍" id="yBX-VA-hWz"/>
                     </navigationItem>
                     <connections>
                         <outlet property="alertButton" destination="yBX-VA-hWz" id="lgt-yb-buU"/>
@@ -131,7 +174,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vy2-EX-gnX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2860.8695652173915" y="274.55357142857139"/>
+            <point key="canvasLocation" x="-2860.8695652173915" y="273.88392857142856"/>
         </scene>
         <!--What To Buy View Controller-->
         <scene sceneID="mV3-lP-Rp0">
@@ -140,12 +183,18 @@
                     <view key="view" contentMode="scaleToFill" id="7j1-ny-XIc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4286" translatesAutoresizingMaskIntoConstraints="NO" id="hgP-zN-mHK">
+                                <rect key="frame" x="87" y="109" width="240" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43238502740000001" green="0.68223088980000002" blue="0.42095690969999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="jnv-0t-3Vt"/>
                     </view>
                     <navigationItem key="navigationItem" id="J30-ME-oVw">
                         <barButtonItem key="leftBarButtonItem" title="🌏" id="aL9-PV-nDo"/>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="FBk-qw-Z21"/>
+                        <barButtonItem key="rightBarButtonItem" title="🌍" id="FBk-qw-Z21"/>
                     </navigationItem>
                     <connections>
                         <outlet property="alertButton" destination="FBk-qw-Z21" id="0LK-Sl-Fgf"/>
@@ -163,14 +212,20 @@
                     <view key="view" contentMode="scaleToFill" id="dJd-D6-zTd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4285" translatesAutoresizingMaskIntoConstraints="NO" id="lDb-Pw-dph">
+                                <rect key="frame" x="87" y="108" width="240" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43238502740000001" green="0.68223088980000002" blue="0.42095690969999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="oPf-7m-4FV"/>
                     </view>
                     <navigationItem key="navigationItem" id="dfY-r5-c1W">
                         <barButtonItem key="leftBarButtonItem" title="🌏" id="tDf-qY-qbs">
                             <inset key="imageInsets" minX="0.0" minY="0.0" maxX="570" maxY="0.0"/>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="Hbh-2e-cT6"/>
+                        <barButtonItem key="rightBarButtonItem" title="🌍" id="Hbh-2e-cT6"/>
                     </navigationItem>
                     <connections>
                         <outlet property="alertButton" destination="Hbh-2e-cT6" id="VOa-SQ-UzP"/>
@@ -201,7 +256,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome Page" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIZ-rZ-Ze7">
-                                                    <rect key="frame" x="39" y="3" width="134" height="39"/>
+                                                    <rect key="frame" x="39" y="3" width="134" height="41"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
                                                     <color key="textColor" red="0.2666666667" green="0.1333333333" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -370,7 +425,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Of-r0-HL9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2859.4202898550725" y="248.4375"/>
+            <point key="canvasLocation" x="2857.971014492754" y="248.4375"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="ZvJ-GH-ovZ">
@@ -379,14 +434,25 @@
                     <view key="view" contentMode="scaleToFill" id="RWB-gW-54u">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="WrJ-jz-YRd">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="WrJ-jz-YRd" firstAttribute="leading" secondItem="KOH-JG-WKA" secondAttribute="leading" id="7wt-PJ-39r"/>
+                            <constraint firstItem="WrJ-jz-YRd" firstAttribute="top" secondItem="KOH-JG-WKA" secondAttribute="top" id="JX9-7o-xcv"/>
+                            <constraint firstItem="KOH-JG-WKA" firstAttribute="trailing" secondItem="WrJ-jz-YRd" secondAttribute="trailing" id="RfK-MU-48Q"/>
+                            <constraint firstItem="KOH-JG-WKA" firstAttribute="bottom" secondItem="WrJ-jz-YRd" secondAttribute="bottom" id="bls-rC-Dqz"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="KOH-JG-WKA"/>
                     </view>
                     <navigationItem key="navigationItem" id="nsh-Ce-Nuy">
                         <barButtonItem key="leftBarButtonItem" title="🌏" id="zap-pv-2AQ">
                             <inset key="imageInsets" minX="0.0" minY="0.0" maxX="570" maxY="0.0"/>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="zp9-x9-kyP"/>
+                        <barButtonItem key="rightBarButtonItem" title="🌍" id="zp9-x9-kyP"/>
                     </navigationItem>
                     <connections>
                         <outlet property="alertButton" destination="zp9-x9-kyP" id="77e-Ag-dvn"/>
@@ -404,7 +470,13 @@
                     <view key="view" contentMode="scaleToFill" id="qqM-ya-SaR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4284" translatesAutoresizingMaskIntoConstraints="NO" id="dxI-sY-cUX">
+                                <rect key="frame" x="87" y="108" width="240" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43238502740000001" green="0.68223088980000002" blue="0.42095690969999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="NMV-NS-Ew4"/>
                     </view>
                     <navigationItem key="navigationItem" id="nXn-cg-tsc">
@@ -414,7 +486,7 @@
                                 <action selector="menuButton:" destination="zhN-Z3-los" id="4W5-lB-YvB"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="YdW-r3-j9G">
+                        <barButtonItem key="rightBarButtonItem" title="🌍" id="YdW-r3-j9G">
                             <connections>
                                 <action selector="alertButton:" destination="zhN-Z3-los" id="53R-IK-hTU"/>
                             </connections>
@@ -437,14 +509,20 @@
                     <view key="view" contentMode="scaleToFill" id="DKG-jd-zZL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4283" translatesAutoresizingMaskIntoConstraints="NO" id="M6l-aS-mcf">
+                                <rect key="frame" x="87" y="108" width="240" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43238502740000001" green="0.68223088980000002" blue="0.42095690969999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="JAG-NV-R9Q"/>
                     </view>
                     <navigationItem key="navigationItem" id="6P0-EP-U58">
                         <barButtonItem key="leftBarButtonItem" title="🌏" id="dPO-Cn-GnR">
                             <inset key="imageInsets" minX="0.0" minY="0.0" maxX="296" maxY="0.0"/>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="YR6-sl-Uzh"/>
+                        <barButtonItem key="rightBarButtonItem" title="🌍" id="YR6-sl-Uzh"/>
                     </navigationItem>
                     <connections>
                         <outlet property="alertButton" destination="YR6-sl-Uzh" id="ydh-Qg-cYR"/>
@@ -453,7 +531,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uyQ-Iy-WoS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4591.304347826087" y="1116.2946428571429"/>
+            <point key="canvasLocation" x="4091" y="1140"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cqV-bZ-Vzf">
@@ -489,7 +567,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kcm-2I-Vbl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3681.1594202898555" y="1116.2946428571429"/>
+            <point key="canvasLocation" x="3277" y="1140"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qzM-jR-nLp">
@@ -600,4 +678,19 @@
             <point key="canvasLocation" x="-4636.231884057971" y="1096.875"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IMG_4241" width="1125" height="1355"/>
+        <image name="IMG_4243" width="1242" height="711"/>
+        <image name="IMG_4245" width="1242" height="699"/>
+        <image name="IMG_4246" width="916" height="1629"/>
+        <image name="IMG_4247" width="1242" height="703"/>
+        <image name="IMG_4251" width="400" height="444"/>
+        <image name="IMG_4272 3" width="1242" height="621"/>
+        <image name="IMG_4283" width="671" height="126"/>
+        <image name="IMG_4284" width="899" height="165"/>
+        <image name="IMG_4285" width="1045" height="180"/>
+        <image name="IMG_4286" width="1015" height="178"/>
+        <image name="IMG_4287" width="807" height="220"/>
+        <image name="IMG_4288" width="1128" height="212"/>
+    </resources>
 </document>

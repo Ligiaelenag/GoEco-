@@ -12,10 +12,10 @@
 		F12EBF0624E5DADF000D6577 /* WhatToBuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12EBF0524E5DADF000D6577 /* WhatToBuyViewController.swift */; };
 		F12EBF0824E5DC34000D6577 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12EBF0724E5DC34000D6577 /* AboutViewController.swift */; };
 		F12EBF0A24E5DD68000D6577 /* DonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12EBF0924E5DD68000D6577 /* DonationsViewController.swift */; };
+		F12EBFCD24E6A3B3000D6577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12EBFCC24E6A3B3000D6577 /* Assets.xcassets */; };
 		F176BA0824E51C6F0044AAE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176BA0724E51C6F0044AAE5 /* AppDelegate.swift */; };
 		F176BA0A24E51C6F0044AAE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176BA0924E51C6F0044AAE5 /* SceneDelegate.swift */; };
 		F176BA1224E51C6F0044AAE5 /* GoEco_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F176BA1024E51C6F0044AAE5 /* GoEco_.xcdatamodeld */; };
-		F176BA1424E51C740044AAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F176BA1324E51C740044AAE5 /* Assets.xcassets */; };
 		F176BA1724E51C740044AAE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F176BA1524E51C740044AAE5 /* LaunchScreen.storyboard */; };
 		F176BA2224E51C740044AAE5 /* GoEco_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176BA2124E51C740044AAE5 /* GoEco_Tests.swift */; };
 		F176BA2D24E51C740044AAE5 /* GoEco_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176BA2C24E51C740044AAE5 /* GoEco_UITests.swift */; };
@@ -48,12 +48,12 @@
 		F12EBF0524E5DADF000D6577 /* WhatToBuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatToBuyViewController.swift; sourceTree = "<group>"; };
 		F12EBF0724E5DC34000D6577 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		F12EBF0924E5DD68000D6577 /* DonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationsViewController.swift; sourceTree = "<group>"; };
+		F12EBFCC24E6A3B3000D6577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F176BA0424E51C6F0044AAE5 /* GoEco!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoEco!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F176BA0724E51C6F0044AAE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F176BA0924E51C6F0044AAE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F176BA0E24E51C6F0044AAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F176BA1124E51C6F0044AAE5 /* GoEco_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoEco_.xcdatamodel; sourceTree = "<group>"; };
-		F176BA1324E51C740044AAE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F176BA1624E51C740044AAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F176BA1824E51C740044AAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F176BA1D24E51C740044AAE5 /* GoEco!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoEco!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,7 +122,7 @@
 				F176BA0724E51C6F0044AAE5 /* AppDelegate.swift */,
 				F176BA0924E51C6F0044AAE5 /* SceneDelegate.swift */,
 				F176BA0D24E51C6F0044AAE5 /* Main.storyboard */,
-				F176BA1324E51C740044AAE5 /* Assets.xcassets */,
+				F12EBFCC24E6A3B3000D6577 /* Assets.xcassets */,
 				F176BA1524E51C740044AAE5 /* LaunchScreen.storyboard */,
 				F12EBF0924E5DD68000D6577 /* DonationsViewController.swift */,
 				F12EBF0724E5DC34000D6577 /* AboutViewController.swift */,
@@ -265,8 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F12EBF0224E5D6EB000D6577 /* Main.storyboard in Resources */,
+				F12EBFCD24E6A3B3000D6577 /* Assets.xcassets in Resources */,
 				F176BA1724E51C740044AAE5 /* LaunchScreen.storyboard in Resources */,
-				F176BA1424E51C740044AAE5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
